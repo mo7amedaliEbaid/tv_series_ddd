@@ -2,6 +2,11 @@
 
 # tv_series_ddd
 
+
+### Purpose
+
+- Learning DDD in Flutter utilizing riverpod and run tests as possible as i can.
+
 A new Flutter project.
 
 ## Getting Started
