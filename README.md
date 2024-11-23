@@ -1,3 +1,5 @@
+[![Test](https://github.com/mo7amedaliEbaid/tv_series_ddd/actions/workflows/test.yml/badge.svg)](https://github.com/mo7amedaliEbaid/tv_series_ddd/actions/workflows/test.yml)
+
 # tv_series_ddd
 
 A new Flutter project.
