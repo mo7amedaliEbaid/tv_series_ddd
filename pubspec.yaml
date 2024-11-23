@@ -60,6 +60,7 @@ dependencies:
   device_info_plus:
   go_router:
   go_router_builder:
+  mocktail:
 
 dev_dependencies:
   flutter_test:
@@ -76,6 +77,11 @@ dev_dependencies:
   riverpod_generator:
   freezed: ^2.3.5
   flutter_gen_runner: ^5.7.0
+  file:
+  platform:
+
+dependency_overrides:
+  file:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
