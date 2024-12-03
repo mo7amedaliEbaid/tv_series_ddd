@@ -61,6 +61,7 @@ dependencies:
   go_router:
   go_router_builder:
   mocktail:
+  fast_immutable_collections:
 
 dev_dependencies:
   flutter_test:
