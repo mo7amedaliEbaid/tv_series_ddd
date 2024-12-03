@@ -1,4 +1,11 @@
+[![Test](https://github.com/mo7amedaliEbaid/tv_series_ddd/actions/workflows/test.yml/badge.svg)](https://github.com/mo7amedaliEbaid/tv_series_ddd/actions/workflows/test.yml)
+
 # tv_series_ddd
+
+
+### Purpose
+
+- Learning DDD in Flutter utilizing riverpod and run tests as possible as i can.
 
 A new Flutter project.
 
