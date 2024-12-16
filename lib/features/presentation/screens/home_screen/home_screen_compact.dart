@@ -10,6 +10,7 @@ import '../../../../../core/presentation/widgets/custom_elevated_button.dart';
 import '../../../../../core/presentation/widgets/platform_widgets/platform_appbar.dart';
 import '../../../../../core/presentation/widgets/platform_widgets/platform_refresh_indicator.dart';
 import '../../../../../core/presentation/widgets/toasts.dart';
+import '../../components/series_drawer.dart';
 
 
 class HomeScreenCompact extends ConsumerWidget {
@@ -43,7 +44,7 @@ class HomeScreenCompact extends ConsumerWidget {
         ),
       ),
       drawer: const HomeDrawer(),
-      body: Consumer(
+      body: SizedBox.shrink()/*Consumer(
         builder: (context, ref, child) {
           final articlesAsync = ref.watch(articlesProvider);
 
@@ -88,7 +89,7 @@ class HomeScreenCompact extends ConsumerWidget {
             ],
           );
         },
-      ),
+      )*/,
     );
   }
 }

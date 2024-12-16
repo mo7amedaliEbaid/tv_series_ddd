@@ -1,4 +1,3 @@
-import 'package:fast_immutable_collections/fast_immutable_collections.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 import '../../../domain/series.dart';
@@ -20,7 +19,7 @@ class SeriesDto with _$SeriesDto {
   const SeriesDto._();
 
   factory SeriesDto.fromJson(Map<String, dynamic> json) =>
-      _$SeriesDtoDtoFromJson(json);
+      _$SeriesDtoFromJson(json);
 
   Series toDomain() {
     return Series(
@@ -32,20 +31,3 @@ class SeriesDto with _$SeriesDto {
     );
   }
 }
-/*
-
-@Freezed(toJson: false)
-class ArticlesDto with _$ArticlesDto {
-  const factory ArticlesDto({
-    required IList<ArticleDto> articles,
-  }) = _ArticlesDto;
-
-  const ArticlesDto._();
-
-  factory ArticlesDto.fromJson(Map<String, dynamic> json) => _$ArticlesDtoFromJson(json);
-
-  SeriesDto toDomain() {
-    return Articles(items: articles.map((e) => e.toDomain()).toIList());
-  }
-}
-*/

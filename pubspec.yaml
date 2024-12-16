@@ -78,6 +78,7 @@ dev_dependencies:
   riverpod_generator:
   freezed: ^2.3.5
   flutter_gen_runner: ^5.7.0
+  json_serializable:
   file:
   platform:
 

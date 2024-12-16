@@ -1,3 +1,4 @@
+/*
 part of 'series_components.dart';
 
 class ArticleItem extends StatelessWidget {
@@ -74,3 +75,4 @@ class ArticleItem extends StatelessWidget {
     );
   }
 }
+*/

@@ -15,9 +15,5 @@ import '../../../../core/presentation/widgets/custom_elevated_button.dart';
 import '../../../../core/presentation/widgets/custom_shimmer.dart';
 import '../../../../core/presentation/widgets/responsive_widgets/responsive_center.dart';
 import '../../../../core/presentation/widgets/seperated_sliver_child_builder_delegate.dart';
-import '../../domain/article.dart';
-import '../providers/open_website_provider.dart';
 
-part 'series_list.dart';
-part 'series_item.dart';
-part 'open_website_button.dart';
+

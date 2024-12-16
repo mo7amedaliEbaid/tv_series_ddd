@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../../../../core/core_features/theme/presentation/utils/custom_colors.dart';
 import '../../../../core/presentation/helpers/localization_helper.dart';
 import '../../../../core/presentation/styles/styles.dart';
-import '../../../../gen/my_assets.dart';
+import '../../../gen/assets.gen.dart';
 import 'home_drawer_dialog.dart';
 
 class HomeDrawer extends StatelessWidget {
@@ -37,25 +37,25 @@ class HomeDrawer extends StatelessWidget {
                 const SizedBox(
                   height: Sizes.marginV28,
                 ),
-                DrawerItem(
+               /* DrawerItem(
                   title: tr(context).explore,
-                  icon: MyAssets.ASSETS_ICONS_MENU_ICONS_EXPLORE_PNG,
+                  icon:Assets.icons,
                   onTap: () => closeDrawer(tr(context).explore),
                 ),
                 itemsVGap,
                 DrawerItem(
                   title: tr(context).liveChat,
-                  icon: MyAssets.ASSETS_ICONS_MENU_ICONS_LIVE_PNG,
+                  icon: Assets.ASSETS_ICONS_MENU_ICONS_LIVE_PNG,
                   onTap: () => closeDrawer(tr(context).liveChat),
-                ),
+                ),*/
                 itemsVGap,
-                DrawerItem(
+               /* DrawerItem(
                   title: tr(context).gallery,
                   icon: MyAssets.ASSETS_ICONS_MENU_ICONS_GALLERY_PNG,
                   onTap: () => closeDrawer(tr(context).gallery),
-                ),
+                ),*/
                 itemsVGap,
-                DrawerItem(
+              /*  DrawerItem(
                   title: tr(context).wishList,
                   icon: MyAssets.ASSETS_ICONS_MENU_ICONS_WISHLIST_PNG,
                   onTap: () => closeDrawer(tr(context).wishList),
@@ -65,7 +65,7 @@ class HomeDrawer extends StatelessWidget {
                   title: tr(context).eMagazine,
                   icon: MyAssets.ASSETS_ICONS_MENU_ICONS_E_MAGAZINE_PNG,
                   onTap: () => closeDrawer(tr(context).eMagazine),
-                ),
+                ),*/
               ],
             ),
           ),
@@ -120,10 +120,10 @@ class HomeDrawerHeader extends StatelessWidget {
           Flexible(
             child: Row(
               children: [
-                const CircleAvatar(
+               /* const CircleAvatar(
                   radius: 32,
                   backgroundImage: AssetImage(MyAssets.ASSETS_ICONS_MENU_ICONS_PROFILE_PNG),
-                ),
+                ),*/
                 const SizedBox(width: Sizes.marginH20),
                 Expanded(
                   child: Column(
@@ -148,11 +148,11 @@ class HomeDrawerHeader extends StatelessWidget {
             ),
           ),
           const SizedBox(width: Sizes.marginH20),
-          Image.asset(
+         /* Image.asset(
             MyAssets.ASSETS_ICONS_MENU_ICONS_ARROW_PNG,
             height: Sizes.icon32,
             width: Sizes.icon32,
-          ),
+          ),*/
         ],
       ),
     );
